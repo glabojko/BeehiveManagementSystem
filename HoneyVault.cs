@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeeSwarm
+namespace BeehiveManagementSystem
 {
-    internal class HoneyVault
+    static class HoneyVault
     {
         public const float NECTAR_CONVERSION_RATIO = .19f;
         public const float LOW_LEVEL_WARNING = 10;
@@ -20,7 +20,7 @@ namespace BeeSwarm
                 nectar += amount;
             }
         }
-        
+
         public static void ConvertNectarToHoney(float amount)
         {
             float nectarToConvert = amount;

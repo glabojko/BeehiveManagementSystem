@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeeSwarm
+namespace BeehiveManagementSystem
 {
-    public class HoneyManufacturer : Bee
+    class HoneyManufacturer : Bee
     {
         public const float NECTAR_PROCESSED_PER_SHIFT = 33.15f;
         public override float CostPerShift { get { return 1.95f; } }

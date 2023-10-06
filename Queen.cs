@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeeSwarm
+namespace BeehiveManagementSystem
 {
-    public class Queen : Bee
+    class Queen : Bee
     {
         public const float EGGS_PER_SHIFT = 0.45f;
         public const float HONEY_PER_UNASSIGNED_WORKER = 0.5f;

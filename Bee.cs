@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeeSwarm
+namespace BeehiveManagementSystem
 {
-    public class Bee
+    class Bee
     {
         public virtual float CostPerShift { get; }
 
@@ -23,7 +23,7 @@ namespace BeeSwarm
                 DoJob();
             }
         }
-        
+
         protected virtual void DoJob() { }
     }
 }

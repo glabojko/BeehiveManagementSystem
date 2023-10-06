@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeeSwarm
+namespace BeehiveManagementSystem
 {
-    public class EggCare : Bee
+    class EggCare : Bee
     {
         public const float CARE_PROGRESS_PER_SHIFT = 0.15f;
         public override float CostPerShift { get { return 1.35f; } }
